@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent>h2{
+            background-color: aquamarine;
+        }
+        .parent>h1{
+            background-color: red;
+        }
+        .parent p{
+            color:yellowgreen;
+        }
+        .sub-parent>h1+p{
+            background-color:sandybrown;
+        }
+        .sub-parent>h1~p{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>sindhu</h1>
+        <h2>krishna sri</h2>
+        <p>gayatri</p>
+        <div class="sub-parent">
+            <h1>pallavi</h1>
+            <p>srivalli</p>
+            <p>architha</p>
+            <p>harshitha</p>
+        </div>
+        <h2>salu</h2>
+        <p>lavanya</p>
+    </div>
+</body>
+</html>
